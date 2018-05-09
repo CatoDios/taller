@@ -26,7 +26,7 @@
  
   .scroll{
     overflow: auto;
-    height: 280px;
+    height: 100px;
   }
   .table {
     
@@ -190,6 +190,9 @@
   }
   .botonazul2{
     margin-top: 10px;
+  }
+  .botonazul23{
+    margin-top: 80px;
   }
   /* .boton{
     width:45px;

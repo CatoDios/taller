@@ -109,8 +109,8 @@ componentDidUpdate(){
                 <Buscar Busqueda={this.BuscarNombre} />
               </div>
             </div>
-            <div className=" col-xs-8">
-              <div className="center-xs-12">
+            <div className=" col-xs-8 ">
+              <div className="center-xs-12 margen_top">
               <h5>Filtros</h5>
               </div>
               <div className="SplitPane row">
@@ -137,7 +137,7 @@ componentDidUpdate(){
                   </div>
                 </div>
                 <div className="SplitPane row">
-                <div className="center-xs-12">
+                <div className=" row center-xs-12">
                 <button onClick={this.Filtrar}  className="waves-effect waves-light btn-large botonazul2 right" type="submit">Filtrar<i className="large material-icons left">check</i></button>
                 </div>
               </div>
